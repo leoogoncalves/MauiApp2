@@ -7,7 +7,7 @@ namespace MauiApp2
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new Views.ContartacaoHospedagem());
         }
         protected override Window CreateWindow(IActivationState? activationState)
         {
